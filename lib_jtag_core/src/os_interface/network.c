@@ -42,6 +42,8 @@
 #include <ws2tcpip.h>
 #include <windows.h>
 #include <commctrl.h>
+#pragma comment(lib, "Ws2_32.lib")
+
 #else
 #include <sys/socket.h>
 #include <netinet/in.h>
